@@ -1,0 +1,77 @@
+.cameraItem_container {
+  padding: 18px 19px 19px 16px;
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cameraItem_sidebar-active {
+  background-color: #ffffff;
+}
+
+.cameraItem_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.cameraItem_videoIcon {
+  height: 61px;
+  width: 80px;
+}
+
+.cameraItem_title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.cameraItem_targetTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.cameraItem_statusTitle {
+  @extend .cameraItem_targetTitle;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #000;
+    margin-left: 10px;
+    background: #00bf2a;
+  }
+}
+
+.deleteEditIcon {
+  width: 13px;
+  height: 16px;
+  align-self: flex-end;
+  margin-left: 15px;
+}
+
+.cameraItem_link {
+  text-decoration: none;
+}
+
+.cameraItem_deleteIditContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+a {
+  display: inline-block;
+}
+a img {
+  display: block;
+}

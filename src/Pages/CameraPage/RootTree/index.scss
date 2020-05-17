@@ -1,0 +1,66 @@
+.rootTree_container {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.rootTree_DayCell {
+  padding: 8px 0 8px 8px;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.nestedComponentWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.rootTree_TimeCellContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rootTree_TimeCell {
+  @extend .rootTree_DayCell;
+  width: 150px;
+  //   align-self: flex-end;
+
+  border-top: none;
+}
+
+// .rootTree_treeContainer {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .rootTree_upperJoinLine {
+//   border-left: 1px solid #8d8d8d;
+//   border-bottom: 1px solid #8d8d8d;
+//   width: 10px;
+//   flex: 1;
+// }
+
+.rootTree_bottomJoinLine {
+  flex: 1;
+}
+
+.rootTree_active {
+  border-left: 1px solid #8d8d8d;
+  flex: 1;
+}
+
+.rootTree_NumberCellContainer {
+  @extend .rootTree_TimeCellContainer;
+  width: 135px;
+  align-self: flex-end;
+}

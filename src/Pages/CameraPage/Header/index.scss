@@ -1,0 +1,72 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid #dadada;
+  padding-bottom: 27px;
+}
+
+.header_mainCamIcon {
+  width: 420px;
+  height: 236.69px;
+}
+
+.header_controllsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+}
+
+.header_mainTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.header_cameraTargetTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #999999;
+  margin-top: 5px;
+}
+
+.header_cameraStatusTitle {
+  @extend .header_cameraTargetTitle;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #000;
+    margin-left: 10px;
+    background: #00bf2a;
+    margin-top: 17px;
+  }
+}
+
+.header_controllItemTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6a6a6a;
+}
+
+.header_controllItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin-top: 10px;
+}

@@ -1,0 +1,20 @@
+.thumbnails_container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #dadada;
+  padding-bottom: 30px;
+}
+
+.thumbnails_title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+  color: #6a6a6a;
+}
+
+.thumbnails_content {
+  display: flex;
+  flex-direction: row;
+}

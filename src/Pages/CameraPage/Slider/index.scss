@@ -1,0 +1,48 @@
+.slider_container {
+}
+
+.slider_contentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 54px;
+}
+
+.slider_leftChevron {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider_leftChevronIcon {
+  width: 42px;
+  height: 115px;
+}
+
+.slider_mainCamera {
+  width: 960.14px;
+  height: 540.69px;
+  top: 141.44px;
+  background: #ebebeb;
+  border-radius: 4px;
+}
+
+.slider_footer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 90px 0 85px;
+}
+
+.slider_date {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+}

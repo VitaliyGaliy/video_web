@@ -1,0 +1,38 @@
+.screenShotList_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.screenShot_container {
+  margin-left: 15px;
+}
+
+.screenShot_wrapper {
+  display: flex;
+  width: 200px;
+  height: 112.5px;
+  top: 352px;
+  background: #ebebeb;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoIcon {
+  width: 200px;
+  height: 112.5px;
+}
+
+.screenShot_date {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  margin-left: 3px;
+  margin-top: 5px;
+}
